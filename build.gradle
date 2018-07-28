@@ -28,10 +28,7 @@ repositories {
     }
 }
 
-//热部署开启，还需要Shift+Ctrl+Alt+/ 选择Registry 勾选complier.automake.allow.when.app.running
-bootRun {
-    addResources = true
-}
+//热部署开启，需要Shift+Ctrl+Alt+/ 选择Registry 勾选complier.automake.allow.when.app.running
 
 dependencies {
 	// 该依赖对于编译发行是必须的
